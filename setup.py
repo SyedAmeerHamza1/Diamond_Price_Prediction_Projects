@@ -19,6 +19,6 @@ setup(
     version='0.0.1',
     author='Syed',
     author_email='Syedsoahil116@gamil.com',
-    install_requires='requirements.txt',
+    install_requires=get_requirements("requirements.txt"),
     packages=find_packages()
 )
